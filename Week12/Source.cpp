@@ -44,7 +44,7 @@ int main()
 	file.close();
 
 	if (compareString(&ID[0],&rID[0]) && compareString(&password[0],&rpassword[0]))
-		cout << "\n\tYour're LOGIN";
+		cout << "\n\tYou're LOGIN";
 	else
 		cout << "\nIncorrect Username or Password >_<";
 
